@@ -2,7 +2,7 @@
 
 void GetMatrix(int **value, int *row, int *col){
     int *var;
-    printf("How many row, col ? : ");
+    printf("row, col ? : ");
     scanf("%d %d", row, col);
     var = new int[ *row * *col];
     for(int i = 0; i < *row; i++)
